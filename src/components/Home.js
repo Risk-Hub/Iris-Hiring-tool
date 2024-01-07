@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../assets/header.webp';
 import "../styles/Home.css";
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -8,7 +9,7 @@ function Home() {
       <div className='headerContainer'>
         <h1>ST Hiring Platform</h1>
         <p>Hire Best for Best!</p>
-        <button>Hire Now</button>
+        <Link to="/teams"><button>Hire Now</button></Link>
       </div>
     </div>
   )
