@@ -9,7 +9,7 @@ function Home() {
       <div className='headerContainer'>
         <h1>ST Hiring Platform</h1>
         <p>Hire Best for Best!</p>
-        <Link to="/teams"><button>Hire Now</button></Link>
+        <Link to="/teams"><button type="button" class="btn btn-link">Hire Now</button></Link>
       </div>
     </div>
   )
